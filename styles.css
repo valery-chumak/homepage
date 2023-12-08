@@ -190,7 +190,6 @@ ul {
   color: var(--secondary-text-color);
 }
 /* experience and additional info */
-
 .experiences {
   flex: 1 1 60%;
   margin-right: 50px;
@@ -250,25 +249,27 @@ ul {
 
 .additional-info__education-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .additional-info__education-university-durability {
+  display: block;
   color: var(--durability-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 10px;
 }
 
 .additional-info__education-university-name {
   color: var(--secondary-text-color);
+  text-align: center;
 }
 
 .additional-info__languages {
@@ -277,7 +278,7 @@ ul {
 
 .additional-info__languages-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
