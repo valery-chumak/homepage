@@ -305,3 +305,29 @@ ul {
 .additional-info__certificates-item {
   color: var(--secondary-text-color);
 }
+.additional-info__hobbies-university {
+  display: flex;
+}
+.additional-info__hobbies-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.additional-info__hobbies-item:not(:last-child) {
+  margin-right: 15px;
+}
+.star-icon {
+  color: #ff9a00;
+  color: transparent;
+  animation: star 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+@keyframes star {
+  0% {
+    color: #72c5b6;
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    color: gold;
+    -webkit-background-clip: text;
+  }
+}
