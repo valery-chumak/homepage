@@ -16,7 +16,9 @@ body {
   --border-color: #ff9a0045;
   --text-decoration-color: #ff9a00;
 }
-
+ul {
+  list-style-type: none;
+}
 .container {
   margin: 0 auto;
   padding: 0 30px;
@@ -176,6 +178,16 @@ body {
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
+}
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100px;
+  margin-left: 5%;
+}
+.skills__item {
+  color: var(--secondary-text-color);
 }
 /* experience and additional info */
 
