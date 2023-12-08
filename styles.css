@@ -242,6 +242,11 @@ ul {
 .additional-info {
   flex: 1 1 40%;
 }
+.additional-info.fv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
 .additional-info__education {
   margin-bottom: 20px;
@@ -272,16 +277,31 @@ ul {
   text-align: center;
 }
 
-.additional-info__languages {
+.additional-info__softskills {
   margin-bottom: 20px;
 }
 
-.additional-info__languages-header {
-  color: var(--secondary-text-color);
+.additional-info__softskills-header {
+  color: var(--primary-text-color);
   text-align: center;
   margin-bottom: 20px;
 }
-
+.additional-info__languages-header {
+  color: var(--primary-text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.additional-info__certificates-header {
+  color: var(--primary-text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.additional-info__softskills-item {
+  color: var(--secondary-text-color);
+}
 .additional-info__languages-item {
+  color: var(--secondary-text-color);
+}
+.additional-info__certificates-item {
   color: var(--secondary-text-color);
 }
