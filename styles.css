@@ -41,6 +41,14 @@ body {
 ul {
   list-style-type: none;
 }
+
+  --primary-text-color: #181820;
+  --secondary-text-color: #5c5c62;
+  --durability-text-color: #6a737d9c;
+  --icon-color: #6a737d;
+  --border-color: #ff9a0045;
+  --text-decoration-color: #ff9a00;
+}
 .container {
   margin: 0 auto;
   padding: 0 30px;
@@ -77,7 +85,6 @@ ul {
   padding-bottom: 30px;
   margin-bottom: 15px;
 }
-
 @media screen and (max-width: 576px) {
   .main-info,
   .contact_info_container {
@@ -124,6 +131,13 @@ ul {
     -webkit-background-clip: text;
   }
 }
+.contact-info__sub-header {
+  color: transparent;
+  animation: effect 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  text-decoration-color: var(--text-decoration-color);
+  text-decoration-line: underline;
+}
+
 .contact-info__sub-header {
   color: transparent;
   animation: effect 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
@@ -284,7 +298,6 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
 
 .additional-info__education-header {
   color: var(--secondary-text-color);
@@ -365,3 +378,5 @@ ul {
     -webkit-background-clip: text;
   }
 }
+
+
