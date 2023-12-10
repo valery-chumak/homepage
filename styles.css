@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -37,7 +36,6 @@ body {
 .container:hover {
   animation-play-state: paused;
 }
-
 ul {
   list-style-type: none;
 }
@@ -46,19 +44,16 @@ ul {
   padding: 0 30px;
   max-width: 900px;
 }
-
 .fh {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
 .fv {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 .resume {
   margin: 50px auto;
   border: 1px solid #f5f5f5;
@@ -67,7 +62,6 @@ ul {
   padding: 30px 0;
   max-width: 900px;
 }
-
 .resume__block {
   border-bottom: 3px solid var(--border-color);
   padding-bottom: 30px;
@@ -77,7 +71,6 @@ ul {
   padding-bottom: 30px;
   margin-bottom: 15px;
 }
-
 @media screen and (max-width: 576px) {
   .main-info,
   .contact_info_container {
@@ -97,19 +90,16 @@ ul {
   }
 }
 /* contact info */
-
 .contact-info__header,
 .contact-info__sub-header {
   text-align: center;
 }
-
 .contact-info__header {
   color: var(--primary-text-color);
   margin-bottom: 15px;
   text-decoration-color: var(--icon-color);
   text-decoration-line: underline;
 }
-
 @keyframes effect {
   0% {
     background: linear-gradient(
@@ -129,39 +119,32 @@ ul {
   animation: effect 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   margin-bottom: 30px;
 }
-
 .contact-info__block {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 .contact-info__block--center {
   justify-content: center;
 }
-
 .contact-info__item {
   color: var(--secondary-text-color);
   text-decoration: none;
   display: flex;
   justify-content: start;
 }
-
 .contact-info__item:not(:last-child) {
   margin-bottom: 20px;
 }
-
 .contact-info__item-icon-wrapper {
   margin-right: 10px;
   width: 20px;
   display: flex;
   justify-content: center;
 }
-
 .contact-info__item-icon path {
   fill: var(--icon-color);
 }
-
 .contact-info__item-icon {
   height: 1.1428rem;
   vertical-align: text-bottom;
@@ -185,19 +168,16 @@ ul {
   display: flex;
   justify-content: start;
 }
-
 .intro__icon-wrapper {
   margin-right: 30px;
   width: 30px;
   display: flex;
   justify-content: center;
 }
-
 .intro__icon {
   height: 1.1428rem;
   vertical-align: text-bottom;
 }
-
 .intro__icon path {
   fill: var(--highlight-color);
 }
@@ -206,13 +186,11 @@ ul {
   color: var(--secondary-text-color);
   text-align: justify;
 }
-
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
   margin-bottom: 15px;
 }
-
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
@@ -245,7 +223,6 @@ ul {
   margin-bottom: 10px;
   font-size: 15px;
 }
-
 .experiences__company-header-name {
   color: var(--primary-text-color);
   text-decoration-color: var(--text-decoration-color);
@@ -253,30 +230,25 @@ ul {
   text-align: left;
   margin-bottom: 20px;
 }
-
 .experiences__company-project {
   margin-left: 15px;
   margin-bottom: 25px;
 }
-
 .experiences__company-project-role {
   color: var(--durability-text-color);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
 }
-
 .experiences__company-project-name {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
 }
-
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
   padding-left: 20px;
 }
-
 .additional-info {
   flex: 1 1 40%;
 }
@@ -285,13 +257,11 @@ ul {
   flex-direction: row;
   justify-content: space-evenly;
 }
-
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: center;
   margin-bottom: 20px;
 }
-
 .additional-info__education-university-durability {
   display: block;
   color: var(--durability-text-color);
@@ -299,22 +269,18 @@ ul {
   margin-bottom: 10px;
   font-size: 15px;
 }
-
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
   text-align: center;
   margin-bottom: 10px;
 }
-
 .additional-info__education-university-name {
   color: var(--secondary-text-color);
   text-align: center;
 }
-
 .additional-info__softskills {
   margin-bottom: 20px;
 }
-
 .additional-info__softskills-header {
   color: var(--primary-text-color);
   text-align: center;
